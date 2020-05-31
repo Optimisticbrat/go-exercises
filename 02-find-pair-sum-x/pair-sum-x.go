@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var numbers = []int{5, 2, 4, 7, 6, 3, 8, 1, 5}
-	var pairs [][o2]int
+	var pairs [][2]int
 	for i, num1 := range numbers {
 		j := i + 1
 		for j < len(numbers) {
